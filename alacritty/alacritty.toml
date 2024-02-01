@@ -1,0 +1,12 @@
+[font]
+size = 14
+
+[font.normal]
+family = "CommitMono"
+
+[window]
+decorations = "Buttonless"
+
+[window.padding]
+x = 2
+y = 7
