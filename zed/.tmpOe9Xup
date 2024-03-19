@@ -1,0 +1,20 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Setting","setting":"theme","value":"One Dark"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"first open"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"welcome page: toggle vim"}
+{"signed_in":false,"milliseconds_since_first_event":21128,"type":"App","operation":"open project"}
+{"signed_in":false,"milliseconds_since_first_event":84622,"type":"App","operation":"welcome page: change theme"}
+{"signed_in":false,"milliseconds_since_first_event":87457,"type":"Setting","setting":"theme","value":"Rosé Pine"}
+{"signed_in":false,"milliseconds_since_first_event":88689,"type":"App","operation":"welcome page: change theme"}
+{"signed_in":false,"milliseconds_since_first_event":93192,"type":"Setting","setting":"theme","value":"Andromeda"}
+{"signed_in":false,"milliseconds_since_first_event":101004,"type":"Editor","operation":"open","file_extension":"py","vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":false,"milliseconds_since_first_event":158818,"type":"App","operation":"welcome page: close"}
+{"signed_in":false,"milliseconds_since_first_event":167272,"type":"Action","source":"command palette","action":"theme selector: toggle"}
+{"signed_in":false,"milliseconds_since_first_event":177362,"type":"Setting","setting":"theme","value":"Ayu Dark"}
+{"signed_in":false,"milliseconds_since_first_event":212789,"type":"Edit","duration":27713,"environment":"editor"}
+{"signed_in":false,"milliseconds_since_first_event":236212,"type":"Memory","memory_in_bytes":75644928,"virtual_memory_in_bytes":457563308032}
+{"signed_in":false,"milliseconds_since_first_event":236212,"type":"Cpu","usage_as_percentage":10.139705,"core_count":8}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Memory","memory_in_bytes":19726336,"virtual_memory_in_bytes":457562734592}
+{"signed_in":false,"milliseconds_since_first_event":1,"type":"Cpu","usage_as_percentage":1.5953748,"core_count":8}
+{"signed_in":false,"milliseconds_since_first_event":239997,"type":"Memory","memory_in_bytes":57442304,"virtual_memory_in_bytes":440382455808}
+{"signed_in":false,"milliseconds_since_first_event":239997,"type":"Cpu","usage_as_percentage":0.46436566,"core_count":8}

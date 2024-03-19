@@ -1,0 +1,11 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Setting","setting":"theme","value":"Ayu Light"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"open"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Editor","operation":"open","file_extension":"py","vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":false,"milliseconds_since_first_event":13888,"type":"Assistant","conversation_id":"f4d9ff22-2946-4a02-a586-854bcc043572","kind":"panel","model":"gpt-4-1106-preview"}
+{"signed_in":true,"milliseconds_since_first_event":38394,"type":"App","operation":"extensions page: open"}
+{"signed_in":true,"milliseconds_since_first_event":89412,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":95981,"type":"Action","source":"command palette","action":"theme selector: toggle"}
+{"signed_in":true,"milliseconds_since_first_event":120152,"type":"Setting","setting":"theme","value":"Ayu Light"}
+{"signed_in":true,"milliseconds_since_first_event":239791,"type":"Memory","memory_in_bytes":54476800,"virtual_memory_in_bytes":439498260480}
+{"signed_in":true,"milliseconds_since_first_event":239791,"type":"Cpu","usage_as_percentage":6.922311,"core_count":8}

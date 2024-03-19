@@ -1,0 +1,208 @@
+2024-03-14 10:42:44,949 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2024-03-14 10:42:44,949 DEBUG    root            Running [gcloud.init] with arguments: []
+2024-03-14 10:42:44,949 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2024-03-14 10:42:44,950 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2024-03-14 10:42:44,951 INFO     ___FILE_ONLY___ core:
+  account: tardanoir@gmail.com
+  disable_usage_reporting: 'False'
+
+2024-03-14 10:42:44,951 INFO     ___FILE_ONLY___ 
+
+2024-03-14 10:42:49,510 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2024-03-14 10:42:49,510 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2024-03-14 10:42:49,510 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2024-03-14 10:42:49,510 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2024-03-14 10:42:49,512 INFO     ___FILE_ONLY___ Checking network connection...
+2024-03-14 10:42:52,155 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): accounts.google.com:443
+2024-03-14 10:42:52,515 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET / HTTP/1.1" 302 338
+2024-03-14 10:42:52,594 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /ServiceLogin?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F HTTP/1.1" 302 0
+2024-03-14 10:42:52,828 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /InteractiveLogin?continue=https://accounts.google.com/&followup=https://accounts.google.com/&passive=1209600&ifkv=ATuJsjxazfmiqW_S6ClnzrgB4FJomi7uI-uf5LeH3trPr-C7FnZB5O7-lfafCalI4-eN1UqfZy5tvg HTTP/1.1" 302 527
+2024-03-14 10:42:52,953 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=ATuJsjxY0DSFxkSqmOPfAOdTOYAqQl9SdREfyHhtVQ64eKskdWXEBCRL3Lih5orYzjN43RsHPft2bw&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-251198373%3A1710423772763251 HTTP/1.1" 200 None
+2024-03-14 10:42:53,084 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-03-14 10:42:54,002 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1beta1/projects HTTP/1.1" 401 None
+2024-03-14 10:42:54,010 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): www.googleapis.com:443
+2024-03-14 10:42:54,185 DEBUG    urllib3.connectionpool https://www.googleapis.com:443 "GET /auth/cloud-platform HTTP/1.1" 200 14
+2024-03-14 10:42:54,193 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2024-03-14 10:42:54,365 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 214446
+2024-03-14 10:42:54,419 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2024-03-14 10:42:54,420 INFO     ___FILE_ONLY___ Network diagnostic passed (1/1 checks passed).
+
+
+2024-03-14 10:42:59,337 INFO     ___FILE_ONLY___ You are logged in as: [tardanoir@gmail.com].
+
+
+2024-03-14 10:42:59,358 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-03-14 10:43:00,294 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=201 HTTP/1.1" 200 None
+2024-03-14 10:43:02,164 INFO     ___FILE_ONLY___ Your current project has been set to: [ee-tardanoir].
+
+
+2024-03-14 10:43:02,265 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-03-14 10:43:02,267 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project_info']
+2024-03-14 10:43:02,284 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project-info', 'describe']
+2024-03-14 10:43:02,284 INFO     root            Executing: [gcloud compute project-info describe --quiet]
+2024-03-14 10:43:02,285 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --quiet: "True", --verbosity: "none"]
+2024-03-14 10:43:02,575 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-03-14 10:43:02,922 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/ee-tardanoir?alt=json HTTP/1.1" 403 None
+2024-03-14 10:43:03,030 DEBUG    root            Chosen display Format:default
+2024-03-14 10:43:03,040 DEBUG    root            Chosen display Format:default
+2024-03-14 10:43:03,043 DEBUG    root            Chosen display Format:default
+2024-03-14 10:43:03,064 DEBUG    root            Chosen display Format:default
+2024-03-14 10:43:03,047 DEBUG    root            (gcloud.compute.project-info.describe) User [tardanoir@gmail.com] does not have permission to access projects instance [ee-tardanoir] (or it may not exist): Compute Engine API has not been used in project ee-tardanoir before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=ee-tardanoir then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+- '@type': type.googleapis.com/google.rpc.Help
+  links:
+  - description: Google developers console API activation
+    url: https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=ee-tardanoir
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: googleapis.com
+  metadatas:
+    consumer: projects/ee-tardanoir
+    service: compute.googleapis.com
+  reason: SERVICE_DISABLED
+Traceback (most recent call last):
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 815, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/surface/compute/project_info/describe.py", line 37, in Run
+    return client.MakeRequests([(client.apitools_client.projects, 'Get',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/client_adapter.py", line 128, in MakeRequests
+    objects = list(
+              ^^^^^
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/request_helper.py", line 321, in MakeRequests
+    responses, new_errors = single_request_helper.MakeSingleRequest(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/single_request_helper.py", line 69, in MakeSingleRequest
+    response = getattr(service, method)(request=request_body)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/googlecloudsdk/generated_clients/apis/compute/v1/compute_v1_client.py", line 10778, in Get
+    return self._RunMethod(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 734, in _RunMethod
+    http_response = http_wrapper.MakeRequest(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/third_party/apitools/base/py/http_wrapper.py", line 348, in MakeRequest
+    return _MakeRequestNoRetry(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/third_party/apitools/base/py/http_wrapper.py", line 406, in _MakeRequestNoRetry
+    check_response_func(response)
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis.py", line 244, in _CheckResponse
+    _CheckForApiEnablementError(response_as_error)
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis.py", line 210, in _CheckForApiEnablementError
+    PromptToEnableApi(*enablement_info)
+  File "/Users/felipegalo/Downloads/./google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis.py", line 193, in PromptToEnableApi
+    raise exception
+googlecloudsdk.api_lib.util.exceptions.HttpException: User [tardanoir@gmail.com] does not have permission to access projects instance [ee-tardanoir] (or it may not exist): Compute Engine API has not been used in project ee-tardanoir before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=ee-tardanoir then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+- '@type': type.googleapis.com/google.rpc.Help
+  links:
+  - description: Google developers console API activation
+    url: https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=ee-tardanoir
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: googleapis.com
+  metadatas:
+    consumer: projects/ee-tardanoir
+    service: compute.googleapis.com
+  reason: SERVICE_DISABLED
+2024-03-14 10:43:03,066 ERROR    root            (gcloud.compute.project-info.describe) User [tardanoir@gmail.com] does not have permission to access projects instance [ee-tardanoir] (or it may not exist): Compute Engine API has not been used in project ee-tardanoir before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=ee-tardanoir then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+- '@type': type.googleapis.com/google.rpc.Help
+  links:
+  - description: Google developers console API activation
+    url: https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=ee-tardanoir
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: googleapis.com
+  metadatas:
+    consumer: projects/ee-tardanoir
+    service: compute.googleapis.com
+  reason: SERVICE_DISABLED
+2024-03-14 10:43:03,066 DEBUG    root            Chosen display Format:default
+2024-03-14 10:43:03,077 INFO     root            [compute project-info describe --quiet] has failed
+
+2024-03-14 10:43:03,077 INFO     ___FILE_ONLY___ Not setting default zone/region (this feature makes it easier to use
+[gcloud compute] by setting an appropriate default value for the
+--zone and --region flag).
+See https://cloud.google.com/compute/docs/gcloud-compute section on how to set
+default compute region and zone manually. If you would like [gcloud init] to be
+able to do this for you the next time you run it, make sure the
+Compute Engine API is enabled for your project on the
+https://console.developers.google.com/apis page.
+
+
+2024-03-14 10:43:03,077 DEBUG    root            Executing command: ['/Users/felipegalo/Downloads/google-cloud-sdk/bin/gsutil', 'config', '-n', '-o', '/Users/felipegalo/.boto']
+2024-03-14 10:43:06,254 DEBUG    ___FILE_ONLY___ 
+2024-03-14 10:43:06,256 DEBUG    ___FILE_ONLY___ /Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/gslib/vendored/boto/boto/__init__.py:1105: SyntaxWarning: invalid escape sequence '\c'
+  """
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/gslib/vendored/boto/boto/pyami/config.py:98: SyntaxWarning: invalid escape sequence '\s'
+  match = re.match("^#import[\s\t]*([^\s^\t]*)[\s\t]*$", line)
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/third_party/pyasn1/pyasn1/type/constraint.py:100: SyntaxWarning: invalid escape sequence '\*'
+  """Create a SingleValueConstraint object.
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/third_party/pyasn1/pyasn1/type/constraint.py:141: SyntaxWarning: invalid escape sequence '\*'
+  """Create a ContainedSubtypeConstraint object.
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/third_party/pyasn1/pyasn1/type/constraint.py:301: SyntaxWarning: invalid escape sequence '\*'
+  """Create a PermittedAlphabetConstraint object.
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/third_party/pyasn1/pyasn1/type/constraint.py:457: SyntaxWarning: invalid escape sequence '\*'
+  """Create a ConstraintsIntersection logic operator object.
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/third_party/pyasn1/pyasn1/type/constraint.py:501: SyntaxWarning: invalid escape sequence '\*'
+  """Create a ConstraintsUnion logic operator object.
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/third_party/pyasn1/pyasn1/type/namedval.py:15: SyntaxWarning: invalid escape sequence '\*'
+  """Create named values object.
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/gslib/vendored/boto/boto/connection.py:672: SyntaxWarning: invalid escape sequence '\w'
+  '(?:(?P<user>[\w\-\.]+):(?P<pass>.*)@)?'
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/gslib/vendored/boto/boto/connection.py:673: SyntaxWarning: invalid escape sequence '\w'
+  '(?P<host>[\w\-\.]+)'
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/gslib/vendored/boto/boto/connection.py:674: SyntaxWarning: invalid escape sequence '\d'
+  '(?::(?P<port>\d+))?'
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/gslib/vendored/boto/boto/connection.py:1121: SyntaxWarning: invalid escape sequence '\.'
+  'specific endpoint this request was sent to\.'
+/Users/felipegalo/Downloads/google-cloud-sdk/platform/gsutil/gslib/vendored/boto/boto/https_connection.py:80: SyntaxWarning: invalid escape sequence '\.'
+  host_re = host.replace('.', '\.').replace('*', '[^.]*')
+This command will create a boto config file at /Users/felipegalo/.boto
+containing your credentials, based on your responses to the following
+questions.
+
+Boto config file "/Users/felipegalo/.boto" created. If you need to use
+a proxy to access the Internet please see the instructions in that
+file.
+
+2024-03-14 10:43:06,256 INFO     ___FILE_ONLY___ Created a default .boto configuration file at [/Users/felipegalo/.boto]. See this file and
+[https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+information about configuring Google Cloud Storage.
+
+2024-03-14 10:43:06,256 INFO     ___FILE_ONLY___ Your Google Cloud SDK is configured and ready to use!
+
+
+2024-03-14 10:43:06,256 INFO     ___FILE_ONLY___ * Commands that require authentication will use tardanoir@gmail.com by default
+
+2024-03-14 10:43:06,256 INFO     ___FILE_ONLY___ * Commands will reference project `ee-tardanoir` by default
+
+2024-03-14 10:43:06,257 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2024-03-14 10:43:06,257 INFO     ___FILE_ONLY___ This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2024-03-14 10:43:06,257 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2024-03-14 10:43:06,257 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2024-03-14 10:43:06,257 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2024-03-14 10:43:06,257 INFO     ___FILE_ONLY___ * Run `gcloud topic --help` to learn about advanced features of the SDK like arg files and output formatting
+
+2024-03-14 10:43:06,257 INFO     ___FILE_ONLY___ * Run `gcloud cheat-sheet` to see a roster of go-to `gcloud` commands.
+
+2024-03-14 10:43:06,257 DEBUG    root            Chosen display Format:default
+2024-03-14 10:43:06,259 INFO     root            Display format: "default"
+2024-03-14 10:43:06,266 DEBUG    root            Metrics reporting process started...
