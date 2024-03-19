@@ -2,7 +2,7 @@
 size = 14
 
 [font.normal]
-family = "CommitMono"
+family = "JetBrainsMono Nerd Font"
 
 [window]
 decorations = "Buttonless"
